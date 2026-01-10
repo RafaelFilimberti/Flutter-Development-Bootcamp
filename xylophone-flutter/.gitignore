@@ -1,0 +1,39 @@
+# Cache e arquivos de compilação do Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
+
+# Android específico (evita que lixo do Gradle e configurações locais subam)
+.gradle/
+local.properties
+captures/
+*.apk
+*.jks
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS específico
+.externalNativeBuild/
+DerivedData/
+*.app
+*.ipa
+*.last_build_id
+
+# IDEs (Arquivos de configuração do Android Studio / VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Configurações de Windows (que apareceram no seu status anteriormente)
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
