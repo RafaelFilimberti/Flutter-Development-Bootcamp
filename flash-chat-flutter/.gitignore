@@ -1,0 +1,25 @@
+# Cache e arquivos de compilação do Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
+
+# Android específico (evita que lixo do Gradle suba)
+.gradle/
+local.properties
+captures/
+*.apk
+*.jks
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Windows específico (importante, pois seu git status mostrou esses arquivos)
+flash-chat-flutter/windows/flutter/generated_plugin_registrant.cc
+flash-chat-flutter/windows/flutter/generated_plugin_registrant.h
+flash-chat-flutter/windows/flutter/generated_plugins.cmake
