@@ -1,0 +1,35 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# IntelliJ / Android Studio
+# No Spring ou Flutter, não comitamos o estado da IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Flutter/Dart
+# Usamos **/ para garantir que pegue em todas as subpastas de projetos
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+
+# Android específico
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/.gradle/
+
+# iOS específico
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/.last_build_id
